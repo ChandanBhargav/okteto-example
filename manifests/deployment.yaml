@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-application
-        image: registry.cloud.okteto.net/devops-chandanbhargav/hello-world:node
+        image: registry.cloud.okteto.net/chandanbhargav/hello-world:node
         ports:
           - containerPort: 8080
         imagePullPolicy: Always
